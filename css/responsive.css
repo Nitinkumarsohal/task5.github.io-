@@ -1,0 +1,385 @@
+@media (max-width: 1399.98px) { 
+    .nav-link {
+        margin: 0px;
+        padding: 0px;
+    }
+    .card .img-size {
+        height: 423px;
+        width: 379px;
+    }
+    .banner-t h4 {
+        font-size: 50px;
+    }
+    .banner-t p {
+        font-size: 19px;
+    }
+    footer h4 {
+        padding: 35px;
+        font-size: 35px;
+    }
+ }
+
+
+ @media (max-width: 1199.98px) { 
+    .navbar-brand img {
+        width: 210.85px;
+    }
+    .nav-link {
+        font-size: 19px;
+    }
+    .carousel-caption {
+        padding-bottom: 100px;
+    }
+    .carousel-caption h5 {
+        font-size: 85px;
+        line-height: 90%;
+    }
+    .carousel-caption p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 27px;
+    }
+    .text-heading {
+        font-size: 40px;
+    }
+    .our-brands .style-box {
+        padding: 4px;
+    }
+    .our-brands .style-box .img img {
+        object-fit: contain;
+        width: 100%;
+        height: 83px;
+    }
+    .our-brands .padding {
+        padding: 8px;
+    }
+    .Popular-Vehicles h2::before {
+        width: 154.21px;
+        left: 42%;
+    }
+    .card .margin {
+        margin-top: 50px;
+    }
+    .card .img-size {
+        height: 350px;
+        width: 317px;
+    }
+    .text .size {
+        margin-left: 0px !important;
+    }
+    .card .card-style .text .Shop {
+        padding-left: 0px;
+    }
+    .two-banner .text {
+        padding-left: 9px !important;
+    }
+    .testimonial .style-box {
+        padding: 10px;
+    }
+    .testimonial .style-box .Lorem {
+        padding-top: 4px;
+    }
+    .testimonial .gap-style {
+        padding: 9px;
+    }
+    .testimonial .style-box {
+        padding: 25px;
+    }
+    .banner-t h4 {
+        line-height: 35px;
+        font-size: 45px;
+    }
+    .banner-t .edit {
+        padding: 40px 23px 40px 23px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+    }
+    .banner-t p {
+        font-size:15px;
+        line-height: 30px;
+        padding-top: 17px;
+    }
+    .banner-t h4::before {
+        bottom: -24%;
+    }
+    footer h4 {
+        padding: 25px;
+        font-size: 30px;
+    }
+    footer .shape::before {
+        transform: rotate(-25deg);
+        top: 5px;
+        left: -66px;
+    }
+    footer .style-1 p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    footer .style-2 li {
+        font-size: 14px;
+        margin: -1px 0px;
+    }
+    footer .style-2 h3 {
+        font-size: 31px;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    img.pic-size {
+        height: 190px;
+    }
+    .Popular-Vehicles h2::before {
+        left: 38%;
+    }
+    .two-banner .img-boxs {
+        display: none;
+    }
+    .two-banner .img-box {
+        display: flex;
+        justify-content: center;
+    }
+    .testimonial h3::before {
+        left: 37%;
+    }
+    .banner-t h4 {
+        font-size: 40px;
+    }
+    footer .shape::before {
+        display: none;
+    }
+    footer .shape::after {
+        display: none;
+    }
+    footer .p {
+        padding: 0px 22px 23px 20px;
+    }
+    footer .p-style {
+        padding-left: 60px;
+    }
+    .text-heading {
+        font-size: 30px;
+    }
+    .our-brands .style-box .img img {
+        height: 65px;
+    }
+    .our-brands .padding {
+        padding: 5px;
+    }
+    .Popular-Vehicles .nav-pills {
+       
+        margin-top: 29px;
+    }
+    .card .img-size {
+        height: 399px;
+        width: 357px;
+    }
+    .card .card-style .text h3 {
+        font-size: 30px;   
+ }
+ .card .card-style .text p {
+    font-size: 14px;
+    padding-top: 4px;
+}
+ .navbar-toggler {   
+    background: var(--btn-bg);
+    padding: 8px 16px 8px 16px;
+    color: wheat;
+    font-size: 23px;
+}
+.navbar-collapse {
+  
+    padding: 15px;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(28px);
+    border-radius: 10px;
+}
+.nav-link {
+    font-size: 19px;
+    margin-top: 4px;
+}
+.boxs {
+    display: flex;
+    justify-content: center;
+}
+.boxs .menu img {
+    object-fit: contain;
+    margin-left: 8px;
+}
+footer .shape {
+    width: 100%;
+    background-color: var(--btn-bg);
+    position: relative;
+    overflow: hidden;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+}
+
+
+
+@media (max-width: 767.98px) {
+    .our-brands {
+        padding: 20px 0px 50px 0px;
+        
+    }
+    .our-brands .style-box {
+        padding: 26px;
+    }
+    .our-brands .style-box .img img {
+        height: 80px;
+    }
+    .text-heading {
+    font-size: 35px;
+}
+.our-brands .set-padding {
+    padding: 0px;
+}
+.our-brands .text .CalOffroad {
+    font-size: 17px;
+}
+.our-brands .text .for {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #666666;
+}
+img.pic-size {
+    height: 130px;
+}
+.card .card-style .text p {
+    font-size: 15px;
+    width: 100%;
+    max-width: 440px;
+    margin: auto;
+    display: block;
+}
+footer .style-1 img {
+    width: 100%;
+    object-fit: contain;
+    height: 55px;
+}
+
+footer .style-1 img{
+    width: 100%;
+    object-fit: contain;
+    height: 55px;
+    margin-right: auto;
+    display: block;
+    max-width: 230px;
+}
+img.pic-size {
+    height: 137px;
+}
+two-banner .text h3 {
+   
+    font-size: 45px;
+    line-height: 53px;
+ 
+}
+.carousel-control {
+    width: 40px;
+    height: 40px;
+}
+.carousel-control .fa-angle-left {
+    line-height: 42px;
+    font-size: 20px;
+}
+.carousel-control .fa-chevron-right {
+    line-height: 42px;
+    font-size: 20px;
+}
+.navbar-brand img {
+    width: 176.85px;
+}
+.card {
+    padding: 0px 0px 20px 0px;
+}
+
+}
+
+
+
+
+@media (max-width: 375.98px) {
+    img.pic-size {
+        height: 87px !important;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        top: 45px;
+    }
+    .our-brands .text .CalOffroad {
+        font-size: 15px;
+        text-align: left;
+        line-height: 29px;
+    }
+    .our-brands .text .for {
+        font-size: 15px;
+        text-align: left;
+        line-height: 29px;
+    }
+    .Popular-Vehicles h2::before {
+        left: 25%;
+    }
+    .two-banner .text h3 {
+        font-size: 40px;
+        line-height: 48px;
+        
+    }
+    .two-banner .text .get {
+        font-size: 17px;
+        width: 100%;
+        max-width: 100%;
+        line-height: 26px;
+    }
+    .testimonial h3::before {
+        left: 25%;
+    }
+    .testimonial .style-box {
+        padding: 21px;
+    }
+    footer h4 {
+        padding: 14px;
+        font-size: 30px;
+    }
+    footer .edit .bg {
+        padding: 9px 15px 9px 15px;
+        font-size: 12px;
+    }
+    footer .style-1 img {
+        width: 100%;
+        max-width: 200px;
+    }
+    .text .size {
+        margin-left: 38px !important;
+    }
+    .card {
+        padding: 0px 0px 20px 0px;
+    }
+    .navbar-collapse {
+        
+        width: 100%;
+        max-width: 100%;
+    }
+    .boxs .img-style .img-1 {
+       display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .card .img-size {
+        height: 382px;
+        width: 292px;
+    }
+    img.pic-size {
+        height: 85px !important;
+    }
+    .text .size {
+        margin-left: 0px !important;
+    }
+}

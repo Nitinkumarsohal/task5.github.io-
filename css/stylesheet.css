@@ -1,0 +1,726 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&family=Squada+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Squada+One&display=swap');
+:root{
+    --btn-bg:#FF7722;
+    --text-color:#FF7722;
+    --normal-1-text-family:'Squada One';
+    --heading-font-family:'Squada One';
+    --p--text-font-family: 'Roboto';
+}
+.shop-btn{
+    width: 100%;
+    max-width: 207px;
+    height: 56.5px;
+    outline: none;
+    border: none;
+    background: #FF7722;
+    border-radius: 60px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: var(--p--text-font-family);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 21px;
+}
+.shop-btn img{
+    margin-left: 10px;
+    margin-left: 35px;
+    width: 47.5px;
+    height: 47.5px;
+}
+.text-heading{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64px;
+    text-transform: uppercase;
+    font-family: 'Squada One';
+    color: #000000;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 3000;
+    transition: 0.2s;
+}
+.navbar-brand img{
+    width: 309.85px;
+height: 60.9px;
+object-fit: contain;
+}
+.nav-link{
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+font-family: var(--normal-1-text-family);
+color: white;
+margin: 6px;
+padding: 6px;
+text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-link:focus{
+    color: white;
+}
+.form-style{
+    background-color: white;
+    width: 341px;
+    padding: 1px;
+    height: 48.36px;
+    border-radius: 50px;
+}
+.form-style input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.form-style input:focus{
+    border-radius: 50px;
+    outline: none;
+    box-shadow: none;
+}
+.form-style .input-group-text{
+    background-color: transparent;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+}
+.form-style .input-group-text img{
+    width: 100%;
+    object-fit: contain;
+}
+::placeholder{
+     font-weight: 300;
+font-size: 17px;
+line-height: 21px;
+    color:#000000 !important;
+text-transform: capitalize;
+opacity: 20%;
+font-family: var(--p--text-font-family);
+}
+.boxs .img-style{
+    margin-left:20px;
+}
+.boxs .img-style .img-1{
+    width: 31px;
+    object-fit: contain;
+    height: 31px;
+    margin-left: 1px;
+}
+.boxs .menu img{
+    width: 55.76px;
+    height: 55.76px;
+    object-fit: contain;
+    margin-left: 45px;
+}
+.boxs .menu img:hover{
+    cursor: pointer;
+}
+/* header close  */
+.carousel-control {
+    width: 70px;
+    height: 69px;
+    background-color: white;
+    z-index: 333;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.carousel-control:hover {
+    background-color: var(--btn-bg);
+}
+.carousel-control:hover .fa-angle-left{
+    color: white;
+}
+.carousel-control .fa-angle-left{
+    color: black;
+    font-size: 28px;
+    line-height:72px;
+    transition: 0.2s;
+}
+.carousel-control .fa-chevron-right{
+    color: black;
+    font-size: 26px;
+    line-height:72px;
+    transition: 0.2s;
+}
+.carousel-control :hover.fa-chevron-right:hover{
+    color: white;
+}
+.carousel-caption{
+    padding-bottom: 270px;
+    text-align: left;
+}
+.carousel-caption h5{
+font-weight: 400;
+font-size: 100px;
+line-height: 100px;
+text-transform: uppercase;
+font-family: 'Squada One';
+}
+.carousel-caption p{
+font-weight: 500;
+font-size:35px;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+max-width:450px;
+width: 100%;
+line-height: 55px;
+font-family: var(--p--text-font-family);
+}
+    /* slider close  */
+    .our-brands{
+        padding:60px 0px 50px 0px;
+        background-image: url("../images/bg-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+    .our-brands .style-box{
+        background: #FFFFFF;
+        border: 3px solid #000000;
+        border-radius: 18px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     .our-brands .style-box .img img{
+        object-fit: contain;
+        width: 100%;
+        height: 100px;
+    }
+     .our-brands .padding{
+    padding: 8px;
+    }
+    .our-brands .text h3{
+        position: relative;
+    }
+    .our-brands .text h3::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        max-width: 125px;
+        height: 2px;
+        border: 2px solid #FF7722;
+        bottom: 3%;
+    }
+    .our-brands .text .CalOffroad{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #666666;
+        font-family: var(--p--text-font-family);
+        padding-top: 20px;
+        
+    }
+    .our-brands .text .for
+    {
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #666666;
+        
+
+    }
+    .our-brands .text .m{
+        margin-top: 28px;
+    }
+    .our-brands .set-padding{
+        padding: 30px;
+    }
+    /* .our-brands close  */
+
+
+    .Popular-Vehicles{
+        height: 450px;
+        background-image: url("../images/Popular.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Popular-Vehicles h2{
+        padding-top: 65px;
+        position: relative;
+    }
+    .Popular-Vehicles h2::before{
+        position: absolute;
+        content: '';
+        width: 179.21px;
+        height: 0px;
+        border: 2px solid #FF7722;
+        bottom: -9%;
+        left: 43%;
+    }
+
+    .Popular-Vehicles .nav-pills{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+    }
+    .Popular-Vehicles .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        background-color: transparent;
+        color: var(--btn-bg);
+    }
+    .nav-link:hover{
+        color: var(--btn-bg);
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        z-index: 333;
+    }
+    /* .Popular-Vehicles close  */
+
+    .card{
+        padding: 50px 0px 20px 0px;
+        border: 1px solid white;
+    }
+    .card .card-style {
+        text-align: center;
+    }
+    .card  .margin{
+        margin-top: 200px;
+    }
+    .card .img-size {
+        height: 500px;
+        background-color: red;
+        width: 440px;
+    }
+    .card .card-style .text{
+        padding-top: 20px;  
+
+    }
+    .card .card-style .text h3{
+        color: #000000;
+        font-family: 'Squada One';
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 39px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .card .card-style .text p{
+        font-family: var(--p--text-font-family);
+        font-weight: 400;
+        font-size: 16px;
+        padding-top: 4px;
+        line-height: 27px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+    .card .card-style .text .Shop{
+        width: 100%;
+        max-width: 363px;
+        height: 57px;
+        background: #FF7722;
+        border-radius: 60px;
+        font-family: var(--p--text-font-family);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-left: 25px;
+        outline: none;
+        border: none;
+        margin-top: 6px;
+    }
+    .card .card-style .text .size {
+        margin-left: 50px;
+    }
+    /* card section close  */
+    .two-banner{
+        padding: 50px 0px 0px 0px;
+    }
+    
+    .two-banner .img-box{
+        height:600px;
+        width: 100%;
+        background-image: url("../images/bg-2.png");
+    }
+    .two-banner .text h3 {
+        font-family: 'Squada One';
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 100%;
+        max-width: 600px;
+        position: relative;
+    }
+    .two-banner .text h3::before{
+        position: absolute;
+        width: 160.21px;
+        border: 2px solid #FFFFFF;
+        content: '';
+        bottom: -11%;
+    }
+    .two-banner .text{
+            padding-left: 150px;
+    }
+    .two-banner .text .get
+    {
+        font-family: var(--p--text-font-family);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        width: 100%;
+        max-width: 550px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding-top:2px;
+
+    }
+    .two-banner .text button{
+        width: 100%;
+        max-width: 250px;
+        height: 57px;
+        color: white;
+        background: #000000;
+        border-radius: 60px;
+        padding-left: 20px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: var(--p--text-font-family);
+        color: #FFFFFF;
+
+    }
+    .two-banner .text button img{
+        margin-left: 40px;
+    }
+    .two-banner .img-boxs{
+        height: 600px;
+        width: 100%;
+       background-image: url("../images/b.png");
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       position: relative;
+    }
+
+    /* .two-banner .img-boxs .text-box h3{
+        font-family: 'Squada One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 30px;
+        letter-spacing: 0.2em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        opacity: 0.2;
+        transform: rotate(90deg);
+        transform: translatey(10px);
+
+    } */
+    .two-banner .img-boxs::before{
+        position: absolute;
+        content: 'CALOFFROAD';
+        right: -30%;
+        font-family: 'Squada One';
+        font-weight: 400;
+        font-size: 65px;
+        letter-spacing: 0.2em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        opacity: 0.2;
+        transform: rotate(90deg);
+    }
+    .two-banner .img-boxs img {
+        height: 400px;
+        width: 400px;
+        transform: translate(-225px);
+    }
+    /* .two-banner close css  */
+
+
+
+    .testimonial{
+        padding: 50px 0px 50px 0px;
+    }
+    .testimonial .gap-style
+    {
+        padding: 22px;
+    }
+    .testimonial h3{
+        position: relative;
+    }
+    .testimonial h3::before{
+        content: '';
+        position: absolute;
+        width: 175px;
+        bottom: -9%;
+        border: 3px solid #FF7722;
+        left: 44%;
+    }
+    .testimonial .style-box{
+        padding: 25px;
+        border-top-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        position: relative;
+        border: 2px solid #BCBEB9;
+        z-index: 7;
+        overflow: hidden;
+    }
+   
+    .testimonial .style-box .img-text .text{
+        padding-left: 20px;
+    }
+    .testimonial .style-box .img-text .text h4{
+             font-family: var(--p--text-font-family);        
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 47%;
+            text-transform: capitalize;
+            color: #000000;
+    }
+    .testimonial .style-box .img-text img{
+        width: 75px;
+        height: 75px;
+        object-fit: contain;
+
+    }
+    .testimonial .style-box .img-text .text i{
+        color: orange;
+        width: 19.87px;
+    height: 18.7px;
+    }
+    .testimonial .style-box .Lorem{
+        padding-top:20px;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 29px;
+            text-transform: capitalize;
+            color: #000000 !important;
+
+    }
+    /* .testimonial close  */
+
+    .banner-t{
+        background-image: url("../images/t-.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 650px;
+
+    }
+    .banner-t .edit{
+        padding: 50px 30px 50px 30px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);   
+    }
+    .banner-t h4{
+        font-family: 'Squada One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 65px;
+        line-height: 82px;
+        text-transform: uppercase;
+        color: #000000;
+        position: relative;
+    }
+    .banner-t h4::before{
+        content: '';
+        position: absolute;
+        width: 165.21px;
+        border: 2px solid #FF7722;
+        bottom: -9%;
+    }
+
+    .banner-t p {
+        font-family: var(--p--text-font-family);
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #000000;
+        padding-top: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+    footer{
+        padding: 00px 0px 50px 0px;
+        background-color: black;
+        position: relative;
+    }
+    footer .shape{
+        width: 100%;
+        background-color: var(--btn-bg);
+        position: relative;
+        overflow: hidden;
+    }
+    footer .shape::before {
+        height: 157px;
+        width: 100px;
+        background-color: #000000;
+        position: absolute;
+        content: '';
+        transform: rotate(-25deg);
+        top: 5px;
+        left: -59px;
+    }
+    footer .shape::after {
+        position: absolute;
+        content: '';
+        height: 189px;
+        width: 100px;
+        background-color: #000000;
+        right: -30px;
+        top: 0%;
+        transform: rotate(37deg);
+        top: 11px;
+    }
+    footer h4{
+        text-align: center;
+        font-family: 'Squada One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height:38px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 40px;
+    }
+  
+   footer .edit input{
+    width: 100%;
+   }
+   footer .p {
+    width: 100%;
+    padding: 0px 95px 0px 20px;
+}
+   footer .edit{
+    background-color:white;
+    padding: 5px;
+    border-radius: 60px;
+   }
+   footer .input-group-text{
+    background-color: transparent;
+    border: transparent;
+   }    
+   footer .edit input{
+    background-color:white;
+    background-color: transparent;
+    outline: none;
+    border: navajowhite;
+   }    
+
+
+   footer .edit input:focus{
+    border: none;
+    box-shadow: none;
+   }
+
+   footer .edit .bg{
+    color: white;
+    background: #000000;
+    border-radius: 60px;
+    padding: 9px 36px 9px 36px;
+    font-family: var(--p--text-font-family);    
+        font-weight: 500;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+   }
+   .fa-envelope-open{
+    font-size: 19px;
+   }
+   footer .style-1{
+    margin-top: 45px;
+   }
+   footer .style-1 img{
+    width: 100%;
+    object-fit: contain;
+   }
+   footer .style-1 i{
+    color: white;
+    font-size: 22px;
+    padding-top: 5px;
+   }
+   footer .style-1 p{
+    font-family: var(--p--text-font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height:24px;
+    /* or 167% */
+    text-transform: capitalize;
+    color: #FFFFFF;
+   }
+   footer .style-1 .icon i{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #FFFFFF;
+    transition: 0.2s;
+   }
+   footer .style-1 .icon i:hover{
+    background-color: var(--btn-bg);
+    border: 1px solid var(--btn-bg);
+   }
+  footer .style-2 h3{
+    margin-top: 50px;
+    color: wheat;
+ font-family: 'Squada One';
+font-weight: 400;
+font-size: 38px;
+line-height: 40px;
+text-transform: uppercase;
+color: #FFFFFF;
+  }
+  footer .style-2 li{
+    color: white;
+    list-style: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 39px;
+    font-family: var(--p--text-font-family);    
+    text-transform: capitalize;
+    margin: 3px 0px;
+    transition: 0.2s;
+    color: #FFFFFF;
+  }
+  footer .style-2 li:hover{
+    color: var(--btn-bg);
+    cursor: pointer;
+  }
+  footer .style-2 li i{
+    padding-right: 15px;
+  }
+  footer .style-2 .li{
+    margin-top: 20px;
+  }
+  footer .p-style{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
