@@ -446,5 +446,8 @@ two-banner .text h3 {
     .text .size {
         margin-left: 0px !important;
     }
+    .Popular-Vehicles {
+    display: none;
+}
    
 }
