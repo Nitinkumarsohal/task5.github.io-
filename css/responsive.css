@@ -17,6 +17,12 @@
         padding: 35px;
         font-size: 35px;
     }
+    .testimonial::before {
+        right: 4%;
+    }
+    .testimonial::after {
+        left: 4%;
+    }
  }
 
 
@@ -122,6 +128,10 @@
     footer .style-2 h3 {
         font-size: 31px;
     }
+    .item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 
@@ -215,12 +225,34 @@ footer .shape {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+.item {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.testimonial .style-box {
+    padding: 20px;
+}
+.testimonial .style-box {
+    padding: 14px;
+}
+.testimonial .style-box .text-edit p {
+    font-size: 13px;
+}
+.testimonial .style-box .text-name i {
+    width: 15.87px;
+    height: 15.7px;
+}
+
 
 }
 
 
 
 @media (max-width: 767.98px) {
+    .testimonial .style-box .text-name {
+        padding-left: 12px;
+        display: none;
+    }
     .our-brands {
         padding: 20px 0px 50px 0px;
         
@@ -299,9 +331,43 @@ two-banner .text h3 {
 .card {
     padding: 0px 0px 20px 0px;
 }
+.testimonial::before {
+    display: none;
+}
+.testimonial::after {
+    display: none;
+}
 
 }
 
+
+@media (max-width: 575.98px){
+    .testimonial::before {
+        right: 4%;
+        display: none;
+    }
+    .testimonial::after {
+        display:none;
+        left: 4%;
+    }   
+    .testimonial .style-box .text-name {
+        padding-left: 12px;
+        display: block;
+    }
+    /* .owl-theme .owl-dots, .owl-theme .owl-nav {
+        display: none;
+    } */
+    .testimonial .style-box {
+        padding: 30px;
+    }
+    .testimonial .style-box .text-edit p {
+        font-size: 15px;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        margin-left: 5px !important;
+
+    }
+}
 
 
 
@@ -340,9 +406,7 @@ two-banner .text h3 {
     .testimonial h3::before {
         left: 25%;
     }
-    .testimonial .style-box {
-        padding: 21px;
-    }
+   
     footer h4 {
         padding: 14px;
         font-size: 30px;
@@ -382,4 +446,5 @@ two-banner .text h3 {
     .text .size {
         margin-left: 0px !important;
     }
+   
 }
